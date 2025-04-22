@@ -7,6 +7,7 @@ import Home from "./pages/Home"
 
 
 import Sectors from './pages/Sectors';
+import Aboutus from './pages/Aboutus';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Route path="/" element={<Home />} />
       
       <Route path="/sectors" element={<Sectors />} />
+      <Route path="/Aboutus" element={<Aboutus />} />
 
     </Routes>
   </Router>

@@ -15,7 +15,7 @@ export default function OurApproach() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
-      className="bg-gray-100 py-16 px-6 md:px-16 lg:px-24 text-white"
+      className="bg-gray-100 py-16 px-6 md:px-16 lg:px-24"
     >
       {/* Title */}
       <motion.h2
@@ -23,12 +23,7 @@ export default function OurApproach() {
         transition={{duration: 1}}
         whileInView={{opacity: 1, x:0}}
         viewport={{once: true}}
-        className="text-center text-sm  mb-12 tracking-wider"
-      >
-        Our
-        <span className="text-[#fc9908] underline underline-offset-4 decoration-1 font-light decoration-gray-900">
-          {" "}Approach
-        </span>
+        className='text-2xl sm:text-4xl font-bold mb-2 text-center '>Our <span className='underline underline-offset-4 decoration-1 under font-light decoration-gray-900 text-[#fc9908]'>Approach</span>
       </motion.h2>
 
       {/* Subtitle */}
