@@ -8,6 +8,7 @@ import About from './components/Home/About';
 
 
 import Sectors from './pages/Sectors';
+import Aboutus from './pages/Aboutus';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/about" element={<About />} />
       
       <Route path="/sectors" element={<Sectors />} />
+      <Route path="/Aboutus" element={<Aboutus />} />
 
     </Routes>
   </Router>
