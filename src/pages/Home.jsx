@@ -21,9 +21,9 @@ const Home = () => {
       <Sectors1/>
       <Projects/>
       <OurApproach/>
-      <Partners/>
       <Testimonials/>
       <Contact/>
+      <Partners/>
      
     </div>
   )

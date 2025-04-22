@@ -34,6 +34,7 @@ export default function Sectors() {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
       className="bg-gray-100 py-10 px-4 md:px-10"
+      id='Sectors1'
     >
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
@@ -83,8 +84,7 @@ export default function Sectors() {
 
             <button
               className="font-semibold border border-[#fc9908] text-[#fc9908] py-2 px-4 rounded-full transition duration-300 hover:bg-[#fc9908] hover:text-white"
-            >
-              Read More
+            ><a href="/Sectors">Read More</a>
             </button>
           </motion.div>
         ))}

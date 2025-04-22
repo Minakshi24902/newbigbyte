@@ -102,6 +102,10 @@ const Navbar = () => {
                  transition: 'color 0.3s',}}
                 onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
                  onMouseLeave={(e) => (e.target.style.color = '')}>About</a>
+                <a href="#Sectors1" className='cursor-pointer' style={{
+                 transition: 'color 0.3s',}}
+                onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
+                 onMouseLeave={(e) => (e.target.style.color = '')}>Sectors</a>
                 <a href="#Projects" className='cursor-pointer' style={{
                  transition: 'color 0.3s',}}
                 onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
@@ -110,7 +114,7 @@ const Navbar = () => {
                  transition: 'color 0.3s',}}
                 onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
                  onMouseLeave={(e) => (e.target.style.color = '')}>Testimonials</a>
-                <a href="#Partners" className='cursor-pointer' style={{
+                <a href="#Contact" className='cursor-pointer' style={{
                  transition: 'color 0.3s',}}
                 onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
                  onMouseLeave={(e) => (e.target.style.color = '')}>ContactUs</a>

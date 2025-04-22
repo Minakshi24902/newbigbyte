@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Testimonials = () => {
   return (
-    <div className='bg-gray-100 container mx-auto py-10 lg:px-32 w-full overflow-hidden'id='Testimonials'>
+    <div className='container mx-auto py-10 lg:px-32 w-full overflow-hidden'id='Testimonials'>
       <motion.h1
       initial={{opacity: 0, x:200}}
       transition={{duration: 1}}

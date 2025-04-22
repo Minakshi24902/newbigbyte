@@ -6,7 +6,7 @@ import { FlipWords } from './FlipWords';
 const Header = () => {
   const words = ["thinking", "ideas", "dreams", "vision"];
   return (
-    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden' style={{backgroundImage: "url('/head1.jpg')"}} id='header'>
+    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden' style={{backgroundImage: "url('/head1.jpg')"}} id='Header'>
       
       {/* <Navbar/> */}
       <motion.div
