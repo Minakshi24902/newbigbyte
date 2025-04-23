@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const advantages = [
-  "Established credentials of promoters in export markets, having sold engineering products in over 50 countries.",
-  "Extensive global networking for effective product sourcing.",
-  "In-house engineering team to ensure adherence to approved designs and quality parameters as per export standards.",
-  "Proactive team that values time, resolves concerns quickly, and meets all committed timelines.",
-  "Single-point responsibility for successful erection and commissioning of projects.",
-  "Manpower support for turnkey projects with skilled professionals ensuring efficient execution and guaranteed success."
+  "Established credentials of promoters in export markets, as in their formative years they have been selling various engineering products in more than 50 countries.",
+  "Good networking all over the world in various industries for product sourcing.",
+  "In house team of engineers to ensure that products are made as per the approved design and all quality parameters are followed as per export guidelines.",
+  "Proactive team who understands the importance of time and responds to problems raised by the customers promptly. The team ensures to meet the timelines as committed in the contract.",
+  "Single point responsibility, takes full ownership of the successful erection and commissioning of the project.",
+  "Manpower support/supply in case of turnkey projects. BIPL ensures to give maximum benefit to the customers and offers expert and experienced manpower to run the projects efficiently ensuring sure shot success of the project. "
 ];
 
 const BigByteAdvantages = () => {
@@ -49,4 +49,7 @@ const BigByteAdvantages = () => {
 };
 
 export default BigByteAdvantages;
+ 
+
+
 
