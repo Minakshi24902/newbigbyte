@@ -5,6 +5,11 @@ import aquasoftLogo from "../../assets/aquasoft.jpg";
 import infotechLogo from "../../assets/infotech.jpg";
 import mecgmaarkLogo from "../../assets/mechmaarklogo.jpg";
 import saimedLogo from "../../assets/saimed.jpg";
+import akiraLogo from "../../assets/akira.jpeg";
+import genesisLogo from "../../assets/genesis.jpeg";
+import prathamLogo from "../../assets/pratham.jpeg";
+import royalLogo from "../../assets/royal.jpeg";
+import studyLogo from "../../assets/studypedia.jpeg";
 import { motion } from 'framer-motion'
 
 
@@ -14,6 +19,11 @@ const partnerLogos = [
   infotechLogo,
   mecgmaarkLogo,
   saimedLogo,
+  akiraLogo,
+  genesisLogo,
+  prathamLogo,
+  royalLogo,
+  studyLogo,
 ];
 
 

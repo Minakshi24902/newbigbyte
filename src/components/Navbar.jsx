@@ -106,14 +106,14 @@ const Navbar = () => {
                  transition: 'color 0.3s',}}
                 onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
                  onMouseLeave={(e) => (e.target.style.color = '')}>Sectors</a>
-                <a href="#Projects" className='cursor-pointer' style={{
+                {/* <a href="#Projects" className='cursor-pointer' style={{
                  transition: 'color 0.3s',}}
                 onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
-                 onMouseLeave={(e) => (e.target.style.color = '')}>Projects</a>
-                <a href="#Testimonials" className='cursor-pointer' style={{
+                 onMouseLeave={(e) => (e.target.style.color = '')}>Projects</a> */}
+                {/* <a href="#Testimonials" className='cursor-pointer' style={{
                  transition: 'color 0.3s',}}
                 onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
-                 onMouseLeave={(e) => (e.target.style.color = '')}>Testimonials</a>
+                 onMouseLeave={(e) => (e.target.style.color = '')}>Testimonials</a> */}
                 <a href="#Contact" className='cursor-pointer' style={{
                  transition: 'color 0.3s',}}
                 onMouseEnter={(e) => (e.target.style.color = '#fc9908')}
@@ -131,7 +131,7 @@ const Navbar = () => {
             <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Home</a>
             <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>About Us</a>
             <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Sectors</a>
-            <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Partners</a>
+            {/* <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Partners</a> */}
             <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Sign up</a>
           </ul>
         </div>
