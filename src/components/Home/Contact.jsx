@@ -81,4 +81,4 @@ onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
   )
 }
 
-export default Contact
+export default Contact 

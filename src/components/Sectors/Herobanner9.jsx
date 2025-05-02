@@ -29,7 +29,7 @@ const Herobanner9 = () => {
             </p><br />
 
             <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded transition duration-200">
-              Read More
+            <a href="/Tourism">Read More</a>
             </button>
           </div>
 

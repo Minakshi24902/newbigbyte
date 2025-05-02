@@ -89,7 +89,7 @@ const AboutIntro = () => {
             className="text-4xl font-extrabold text-white mb-6 mt-12 text-center md:text-left"
           >
             About{" "}
-            <span className="underline underline-offset-4 decoration-2 font-light decoration-gray-900 text-orange-400">
+            <span className="underline underline-offset-4 decoration-2 font-light decoration-white  text-orange-400">
               Us
             </span>
           </motion.h2>

@@ -22,7 +22,7 @@ const BigByteAdvantages = () => {
           className="text-3xl sm:text-4xl font-bold text-center mb-14"
         >
           Big Byte{" "}
-          <span className="text-orange-500 underline decoration-2 underline-offset-4 font-light">
+          <span className="text-orange-500 underline decoration-2 underline-offset-4 font-light decoration-black">
             Advantages
           </span>
         </motion.h2>
@@ -40,7 +40,7 @@ const BigByteAdvantages = () => {
               <p className="text-base leading-relaxed text-gray-700">
                 {item}
               </p>
-            </motion.div>
+            </motion.div>  
           ))}
         </div>
       </div>
