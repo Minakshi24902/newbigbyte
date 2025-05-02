@@ -32,7 +32,7 @@ const Contact = () => {
 
 
   return (
-    <div className='bg-gray-100  text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='Contact'>
+    <div className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='Contact'>
       <motion.h1
       initial={{opacity: 0, x:-200}}
       transition={{duration: 1}}

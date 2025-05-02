@@ -19,7 +19,7 @@ const Herobanner1 = () => {
         <h2 className='text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20'>
           Sectors We Are Into. <br /> Given Below    
         </h2>
-        <div className='space-x-6 mt-16'>
+        {/* <div className='space-x-6 mt-16'>
           
           <a
             href="#Contact"
@@ -28,7 +28,7 @@ const Herobanner1 = () => {
           >
             Sectors
           </a>
-        </div>
+        </div> */}
       </motion.div>             
     </div>     
   );

@@ -3,7 +3,7 @@ import { ToastContainer} from 'react-toastify';
 import Header from '../components/Home/Header';
 import About from '../components/Home/About';
 import Sectors1 from '../components/Home/Sectors1';
-import Projects from '../components/Home/Projects';
+// import Projects from '../components/Home/Projects';
 import OurApproach from '../components/Home/OurApproach';
 import Testimonials from '../components/Home/Testimonials';
 import Contact from '../components/Home/Contact';
@@ -19,7 +19,7 @@ const Home = () => {
       <ToastContainer/>
       <About/>
       <Sectors1/>
-      <Projects/>
+      {/* <Projects/> */}
       <OurApproach/>
       <Testimonials/>
       <Contact/>

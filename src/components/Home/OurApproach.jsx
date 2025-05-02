@@ -15,7 +15,7 @@ export default function OurApproach() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
-      className="bg-gray-100 py-16 px-6 md:px-16 lg:px-24"
+      className=" py-16 px-6 md:px-16 lg:px-24"
     >
       {/* Title */}
       <motion.h2

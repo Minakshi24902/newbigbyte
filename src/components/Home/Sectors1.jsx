@@ -22,9 +22,9 @@ export default function Sectors() {
     { title: "Education", icon: <FaGraduationCap />, description: "Providing educational syllabus, affiliations, and manpower for institutions." },
     { title: "Health Care", icon: <FaHospital />, description: "Manufacturing allopathic & ayurvedic medicines, private labels & custom formulations." },
     { title: "IT & Digital Marketing", icon: <FaLaptopCode />, description: "Offering software, IT services, and web technologies for businesses." },
-    { title: "HVAC Industry", icon: <FaSnowflake />, description: "India's biggest HVAC filters & pre-insulated duct manufacturer." },
-    { title: "Petroleum Industry", icon: <FaOilCan />, description: "Installing modular refineries for petroleum industries in Africa & Asia." },
-    { title: "FMCG", icon: <FaShoppingCart />, description: "Manufacturing cosmetics, essential oils & henna under private and own brands." }
+    // { title: "HVAC Industry", icon: <FaSnowflake />, description: "India's biggest HVAC filters & pre-insulated duct manufacturer." },
+    { title: "Petroleum Industry", icon: <FaOilCan />, description: "Installing modular refineries for petroleum industries in Africa & Asia." }
+    // { title: "FMCG", icon: <FaShoppingCart />, description: "Manufacturing cosmetics, essential oils & henna under private and own brands." }
   ];
 
   return (
