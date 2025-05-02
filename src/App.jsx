@@ -6,7 +6,9 @@ import Footer from './components/Footer'
 import Home from "./pages/Home"
 import About from './components/Home/About';
 import PowerPlant from './pages/PowerPlant';
-import InformationTech from './pages/InformationTech'
+import InformationTech from './pages/InformationTech';
+import Tourism from './pages/Tourism';
+import Telecom from './pages/Telecom';
 
 import Agro from './pages/Agro';
 import Sectors from './pages/Sectors';
@@ -30,6 +32,10 @@ const App = () => {
       <Route path="/Education" element={<Education />} />
       <Route path="/Health" element={<Health />} />
       <Route path="/Petrol" element={<Petrol />} />
+      <Route path="/PowerPlant" element={<PowerPlant />} />
+      <Route path="/InformationTech" element={<InformationTech />} />
+      <Route path="/Tourism" element={<Tourism />} />
+      <Route path="/Telecom" element={<Telecom />} />
 
     </Routes> 
   </Router>
